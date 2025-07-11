@@ -5,6 +5,18 @@ import SplashScreen from './screens/SplashScreen';
 import WelcomeScreen from './screens/WelcomeScreen';
 import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
+import ForgotPassword from './screens/ForgotPassword';
+import OTPScreen from './screens/OTPScreen';     // Screen 2
+import ResetPassword from './screens/ResetPassword';
+import Dashboard from './screens/DashboardScreen';     // Screen 3
+import WriteUsScreen from './screens/WriteUsScreen';
+import FeedbackScreen from './screens/FeedbackScreen';
+import CHOActivityScreen from './screens/CHOActivityScreen';
+import ClaimReportScreen from './screens/ClaimReportScreen';
+import AboutScreen from './screens/AboutScreen';
+import MyProfileScreen from './screens/MyProfileScreen';
+import ChangePasswordScreen from './screens/ChangePasswordScreen';
+import CallUsScreen from './screens/CallUsScreen';
 
 const Stack = createStackNavigator();
 
@@ -16,6 +28,19 @@ export default function App() {
         <Stack.Screen name="Welcome" component={WelcomeScreen} options={{ headerShown: false }} />
         <Stack.Screen name="Login" component={LoginScreen} options={{ title: 'Login' }} />
         <Stack.Screen name="Register" component={RegisterScreen} options={{ title: 'Register' }} />
+        <Stack.Screen name="ForgotPassword" component={ForgotPassword} />
+        <Stack.Screen name="OTP" component={OTPScreen} />
+        <Stack.Screen name="ResetPassword" component={ResetPassword} />
+        <Stack.Screen name="Dashboard" component={Dashboard} />
+        <Stack.Screen name="Write Us" component={WriteUsScreen} />
+        <Stack.Screen name="Feedback" component={FeedbackScreen} />
+        <Stack.Screen name="CHO Activity" component={CHOActivityScreen} />
+        <Stack.Screen name="Claim Report" component={ClaimReportScreen} />
+        <Stack.Screen name="About" component={AboutScreen} />
+        <Stack.Screen name="My Profile" component={MyProfileScreen} />
+        <Stack.Screen name="Change Password" component={ChangePasswordScreen} />
+        <Stack.Screen name="Call Us" component={CallUsScreen} />
+        
       </Stack.Navigator>
     </NavigationContainer>
   );
