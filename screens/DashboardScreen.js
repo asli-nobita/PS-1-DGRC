@@ -9,9 +9,10 @@ import ClaimReportScreen from './ClaimReportScreen';
 import AboutScreen from './AboutScreen';
 import MyProfileScreen from './MyProfileScreen';
 import ChangePasswordScreen from './ChangePasswordScreen';
-import WriteUsScreen from './WriteUsScreen';
-import CallUsScreen from './CallUsScreen';
+//import WriteUsScreen from './ContactUsScreen';
+//import CallUsScreen from './CallUsScreen';
 import FeedbackScreen from './FeedbackScreen';
+import ContactUsScreen from './ContactUsScreen';
 
 
 const Drawer = createDrawerNavigator();
@@ -80,7 +81,7 @@ export default function DashboardScreen() {
               <Text style={styles.drawerName}>Shivy</Text>
             </View>
 
-            {["Home", "CHO Activity", "Claim Report", "About", "My Profile", "Change Password", "Write Us", "Call Us", "Feedback"].map((label, idx) => (
+            {["Home", "CHO Activity", "Claim Report", "About", "My Profile", "Change Password", "Contact Us", "Feedback"].map((label, idx) => (
               <TouchableOpacity
                 key={idx}
                 style={styles.drawerItem}
@@ -102,14 +103,13 @@ export default function DashboardScreen() {
           </ScrollView>
         )}
       >
-        <Drawer.Screen name="Home" component={HomeContent} />
+        <Drawer.Screen name="Home" component={HomeContent}  />
         <Drawer.Screen name="CHO Activity" component={CHOActivityScreen} />
         <Drawer.Screen name="Claim Report" component={ClaimReportScreen} />
         <Drawer.Screen name="About" component={AboutScreen} />
         <Drawer.Screen name="My Profile" component={MyProfileScreen} />
         <Drawer.Screen name="Change Password" component={ChangePasswordScreen} />
-        <Drawer.Screen name="Write Us" component={WriteUsScreen} />
-        <Drawer.Screen name="Call Us" component={CallUsScreen} />
+        <Drawer.Screen name="Contact Us" component={ContactUsScreen} options={{ title: 'Contact Us' }} />
         <Drawer.Screen name="Feedback" component={FeedbackScreen} />
       </Drawer.Navigator>
     //</NavigationContainer>

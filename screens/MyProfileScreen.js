@@ -22,7 +22,7 @@ export default function MyProfileScreen() {
             <Icon name="arrow-back" size={24} color="#fff" />
           </TouchableOpacity>
           <Text style={styles.headerText}>My Profile</Text>
-          <TouchableOpacity style={styles.helpButton} onPress={() => navigation.navigate('Write Us')}>
+          <TouchableOpacity style={styles.helpButton} onPress={() => navigation.navigate('Contact Us')}>
             <Icon name="help-outline" size={20} color="#fff" />
             <Text style={styles.helpText}>Need Help</Text>
           </TouchableOpacity>
