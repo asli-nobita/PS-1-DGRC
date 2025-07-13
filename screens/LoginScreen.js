@@ -7,6 +7,15 @@ export default function LoginScreen({ navigation }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
+  const handleLogin = () => {
+    // In production, validate input and call API
+    if (username && password) {
+      // Simulate login success
+      navigation.navigate('Dashboard');
+    } else {
+      Alert.alert('Error', 'Please enter both User ID and password');
+    }
+  };
   return (
     <View style={styles.container}>
       <Image source={require('../assets/logo.png')} style={styles.logo} />
@@ -33,7 +42,7 @@ export default function LoginScreen({ navigation }) {
         secureTextEntry
       />
 
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button}  onPress={handleLogin}>
         <Text style={styles.buttonText}>LOG IN</Text>
       </TouchableOpacity>
 
@@ -42,6 +51,10 @@ export default function LoginScreen({ navigation }) {
           Don't have an account?{' '}
           <Text style={{ color: '#143F6B', fontWeight: 'bold' }}>Register</Text>
         </Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity onPress={() => navigation.navigate('ForgotPassword')}>
+        <Text style={styles.forgotPasswordText}>Forgot Password?</Text>
       </TouchableOpacity>
 
       <TouchableOpacity onPress={() => navigation.navigate('Welcome')}>
