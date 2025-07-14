@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\utils\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:utils\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\SplashScreen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:screens\\SplashScreen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\LoginScreen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:screens\\LoginScreen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\WelcomeScreen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:screens\\WelcomeScreen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\OTPVerificationScreen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:screens\\OTPVerificationScreen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\CustomModal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:screens\\CustomModal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\RegisterScreen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:screens\\RegisterScreen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\AboutScreen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:screens\\AboutScreen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomModal.js",
+              "DocumentMoniker": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\CustomModal.js",
+              "RelativeDocumentMoniker": "screens\\CustomModal.js",
+              "ToolTip": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\CustomModal.js",
+              "RelativeToolTip": "screens\\CustomModal.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-13T17:07:42.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OTPVerificationScreen.js",
+              "DocumentMoniker": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\OTPVerificationScreen.js",
+              "RelativeDocumentMoniker": "screens\\OTPVerificationScreen.js",
+              "ToolTip": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\OTPVerificationScreen.js",
+              "RelativeToolTip": "screens\\OTPVerificationScreen.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-13T15:43:58.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.js",
+              "DocumentMoniker": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\App.js",
+              "RelativeDocumentMoniker": "App.js",
+              "ToolTip": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\App.js",
+              "RelativeToolTip": "App.js",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAAAAUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-09T09:03:20.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WelcomeScreen.js",
+              "DocumentMoniker": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\WelcomeScreen.js",
+              "RelativeDocumentMoniker": "screens\\WelcomeScreen.js",
+              "ToolTip": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\WelcomeScreen.js",
+              "RelativeToolTip": "screens\\WelcomeScreen.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-09T09:34:21.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SplashScreen.js",
+              "DocumentMoniker": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\SplashScreen.js",
+              "RelativeDocumentMoniker": "screens\\SplashScreen.js",
+              "ToolTip": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\SplashScreen.js",
+              "RelativeToolTip": "screens\\SplashScreen.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-09T09:33:09.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "api.js",
+              "DocumentMoniker": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\utils\\api.js",
+              "RelativeDocumentMoniker": "utils\\api.js",
+              "ToolTip": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\utils\\api.js",
+              "RelativeToolTip": "utils\\api.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-09T09:24:19.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterScreen.js",
+              "DocumentMoniker": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\RegisterScreen.js",
+              "RelativeDocumentMoniker": "screens\\RegisterScreen.js",
+              "ToolTip": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\RegisterScreen.js",
+              "RelativeToolTip": "screens\\RegisterScreen.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-09T09:31:24.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AboutScreen.js",
+              "DocumentMoniker": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\AboutScreen.js",
+              "RelativeDocumentMoniker": "screens\\AboutScreen.js",
+              "ToolTip": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\AboutScreen.js",
+              "RelativeToolTip": "screens\\AboutScreen.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-13T15:40:17.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginScreen.js",
+              "DocumentMoniker": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\LoginScreen.js",
+              "RelativeDocumentMoniker": "screens\\LoginScreen.js",
+              "ToolTip": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\screens\\LoginScreen.js",
+              "RelativeToolTip": "screens\\LoginScreen.js",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-09T09:27:28.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\index.js",
+              "RelativeDocumentMoniker": "index.js",
+              "ToolTip": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\index.js",
+              "RelativeToolTip": "index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-13T14:37:52.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\Hamza Najfi.HPVICTUS15\\source\\repos\\PS-1-DGRC\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-09T09:56:53.041Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

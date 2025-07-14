@@ -33,7 +33,7 @@ export default function ListOfAshaAnmScreen({ route, navigation }) {
           <Text style={styles.buttonText}>Prev</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('InsertActivity', {
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Insert Activity', {
             hsc,
             year,
             month

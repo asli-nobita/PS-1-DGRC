@@ -28,7 +28,7 @@ export default function InsertActivityScreen({ route, navigation }) {
       Alert.alert('Validation Error', 'Please fill all required fields.');
       return;
     }
-    navigation.navigate('OTPVerification' , {
+    navigation.navigate('OTPVerificationScreen' , {
         hsc,
         year,
         month,

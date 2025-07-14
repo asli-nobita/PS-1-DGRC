@@ -20,7 +20,7 @@ export default function OTPVerificationScreen({ route, navigation }) {
   const handleVerify = () => {
     if (otpInput === generatedOtp) {
       Alert.alert('✅ OTP Verified', 'Your data has been finalized.');
-      navigation.navigate('FinalSubmission', route.params);
+      navigation.navigate('Final Submission', route.params);
     } else {
       Alert.alert('❌ Invalid OTP', 'Please enter the correct 6-digit OTP.');
     }
@@ -30,7 +30,7 @@ export default function OTPVerificationScreen({ route, navigation }) {
     <View style={styles.container}>
       {/* OTP Graphic */}
       <Image
-        source={require('../assets/OTPicon.png')} // Add your own OTP icon in assets
+        source={require('../assets/OTPicon.png')} 
         style={styles.otpImage}
       />
 

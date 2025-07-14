@@ -7,7 +7,7 @@ export default function ForgotPassword({ navigation }) {
   const handleSendOtp = () => {
     if (username.trim()) {
       // Send OTP to backend here if required
-      navigation.navigate('OTP', { username }); // Pass username to OTP screen
+      navigation.navigate('OTPVerificationScreen', { username }); // Pass username to OTP screen
     } else {
       alert('Please enter your username');
     }
