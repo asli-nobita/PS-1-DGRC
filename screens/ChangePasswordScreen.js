@@ -21,14 +21,20 @@ export default function ChangePasswordScreen({ navigation }) {
 
     // Add your password update logic/API here
     Alert.alert('Success', 'Your password has been updated.');
-    navigation.goBack(); // Or navigate to another screen
+    navigation.goBack();
   };
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      {/* Logo and Heading */}
-      <Image source={require('../assets/password.png')} style={styles.logo} />
-      <Text style={styles.title}>Change Password</Text>
+      {/* Header */}
+      <View style={styles.header}>
+        <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backButton}>
+          <Text style={styles.backText}>⬅</Text>
+        </TouchableOpacity>
+
+        <Image source={require('../assets/password.png')} style={styles.logo} />
+        <Text style={styles.title}>Change Password</Text>
+      </View>
 
       {/* Inputs */}
       <TextInput
@@ -69,17 +75,33 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 20,
   },
+  header: {
+    alignItems: 'center',
+    marginBottom: 20,
+    position: 'relative',
+    width: '100%',
+  },
+  backButton: {
+    position: 'absolute',
+    top: 10,
+    left: 0,
+    padding: 10,
+  },
+  backText: {
+    fontSize: 22,
+    color: '#143F6B',
+  },
   logo: {
     width: 100,
     height: 100,
-    marginBottom: 20,
+    marginBottom: 10,
     resizeMode: 'contain',
   },
   title: {
     fontSize: 22,
     fontWeight: 'bold',
     color: '#003f7f',
-    marginBottom: 20,
+    marginBottom: 10,
   },
   input: {
     width: '100%',
@@ -106,4 +128,3 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
-
