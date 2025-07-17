@@ -3,7 +3,7 @@ import {
   View, Text, TextInput, TouchableOpacity, StyleSheet, ScrollView, Image, Alert
 } from 'react-native';
 
-export default function FeedbackScreen() {
+export default function FeedbackScreen({ navigation }) {
   const [rating, setRating] = useState(0);
   const [feedback, setFeedback] = useState('');
   const stars = [1, 2, 3, 4, 5];
@@ -20,6 +20,12 @@ export default function FeedbackScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      {/* Go Back Button */}
+      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
+        <Text style={styles.backArrow}>←</Text>
+        <Text style={styles.backText}>Back</Text>
+      </TouchableOpacity>
+
       {/* Top Card */}
       <View style={styles.topCard}>
         <Image source={require('../assets/UserIcon.jpeg')} style={styles.profileIcon} />
@@ -60,6 +66,21 @@ const styles = StyleSheet.create({
     backgroundColor: '#EAF6FF',
     alignItems: 'center',
     padding: 16,
+  },
+  backButton: {
+    flexDirection: 'row',
+    alignSelf: 'flex-start',
+    marginBottom: 10,
+    alignItems: 'center',
+  },
+  backArrow: {
+    fontSize: 22,
+    color: '#004080',
+    marginRight: 6,
+  },
+  backText: {
+    fontSize: 18,
+    color: '#004080',
   },
   topCard: {
     backgroundColor: '#004080',
