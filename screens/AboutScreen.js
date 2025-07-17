@@ -1,13 +1,20 @@
 import React from 'react';
-import { View, Text, StyleSheet, ScrollView, Image } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, Image, TouchableOpacity } from 'react-native';
+import { Ionicons } from '@expo/vector-icons'; // if you're using Expo
+// import Ionicons from 'react-native-vector-icons/Ionicons'; // use this if not on Expo
 
-export default function AboutScreen() {
+export default function AboutScreen({ navigation }) {
   return (
     <ScrollView style={styles.container}>
       {/* Header */}
       <View style={styles.header}>
-        <Image source={require('../assets/HealthBihar.jpeg')} style={styles.logo} />
-        <Text style={styles.title}>About Us</Text>
+        <TouchableOpacity onPress={() => navigation.goBack()}>
+          <Ionicons name="arrow-back" size={24} color="#003f7f" style={{ marginRight: 10 }} />
+        </TouchableOpacity>
+        <View style={styles.headerContent}>
+          <Image source={require('../assets/HealthBihar.jpeg')} style={styles.logo} />
+          <Text style={styles.title}>About Us</Text>
+        </View>
       </View>
 
       {/* Section: Bihar Health Department */}
@@ -50,8 +57,16 @@ export default function AboutScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#EAF6FF', padding: 16 },
-  header: { alignItems: 'center', marginBottom: 20 },
-  logo: { width: 100, height: 100, resizeMode: 'contain', marginBottom: 10 },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 20
+  },
+  headerContent: {
+    alignItems: 'center',
+    flex: 1
+  },
+  logo: { width: 100, height: 100, resizeMode: 'contain', marginBottom: 5 },
   title: { fontSize: 22, fontWeight: 'bold', color: '#003f7f' },
   section: { marginBottom: 20 },
   heading: { fontSize: 18, fontWeight: 'bold', color: '#B22222', marginBottom: 8 },
@@ -60,4 +75,3 @@ const styles = StyleSheet.create({
     textAlign: 'center', marginTop: 30, fontSize: 12, color: '#555', fontStyle: 'italic'
   }
 });
-
