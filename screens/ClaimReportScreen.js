@@ -9,8 +9,9 @@ import {
   ScrollView,
   Modal
 } from 'react-native';
+import { Ionicons } from '@expo/vector-icons'; // back arrow icon
 
-export default function ClaimReportScreen() {
+export default function ClaimReportScreen({ navigation }) {
   const [yearVisible, setYearVisible] = useState(false);
   const [monthVisible, setMonthVisible] = useState(false);
 
@@ -30,8 +31,15 @@ export default function ClaimReportScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      {/* Header with back button */}
+      <View style={styles.header}>
+        <TouchableOpacity onPress={() => navigation.goBack()}>
+          <Ionicons name="arrow-back" size={24} color="#003f7f" style={{ marginRight: 10 }} />
+        </TouchableOpacity>
+        <Text style={styles.title}>Claim Report</Text>
+      </View>
+
       <Image source={require('../assets/claimreport.jpeg')} style={styles.logo} />
-      <Text style={styles.title}>Claim Report</Text>
 
       <TextInput
         style={styles.input}
@@ -109,6 +117,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#EAF6FF',
     padding: 20,
     alignItems: 'center',
+    paddingTop: 40,
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignSelf: 'flex-start',
+    marginBottom: 10,
   },
   logo: {
     width: 100,
@@ -120,7 +135,6 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: 'bold',
     color: '#003f7f',
-    marginBottom: 20,
   },
   input: {
     width: '100%',
