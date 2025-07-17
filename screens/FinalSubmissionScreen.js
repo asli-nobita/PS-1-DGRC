@@ -1,17 +1,17 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
 
 export default function FinalSubmissionScreen({ route, navigation }) {
-  //const navigation = useNavigation();
   const { hsc, year, month, activity, source, numerator, denominator, percentage } = route.params;
-
-
-  // These props should ideally come from previous screen
- 
 
   return (
     <View style={styles.container}>
+      {/* Go Back Button */}
+      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
+        <Text style={styles.backArrow}>←</Text>
+        <Text style={styles.backText}>Back</Text>
+      </TouchableOpacity>
+
       {/* Header with Check icon */}
       <View style={styles.headerBox}>
         <Text style={styles.headerText}>Details Submitted</Text>
@@ -41,8 +41,24 @@ export default function FinalSubmissionScreen({ route, navigation }) {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#EAF6FF', padding: 20, alignItems: 'center' },
+  backButton: {
+    flexDirection: 'row',
+    alignSelf: 'flex-start',
+    marginTop: 20,
+    marginBottom: 10,
+    alignItems: 'center',
+  },
+  backArrow: {
+    fontSize: 22,
+    color: '#003f7f',
+    marginRight: 6,
+  },
+  backText: {
+    fontSize: 18,
+    color: '#003f7f',
+  },
   headerBox: {
-    flexDirection: 'row', alignItems: 'center', marginTop: 20, marginBottom: 30
+    flexDirection: 'row', alignItems: 'center', marginTop: 10, marginBottom: 30
   },
   headerText: {
     fontSize: 22, fontWeight: 'bold', color: '#003f7f', marginRight: 10
