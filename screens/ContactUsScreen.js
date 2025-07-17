@@ -1,10 +1,15 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, Linking, TouchableOpacity, ScrollView } from 'react-native';
 
-export default function ContactUsScreen() {
+export default function ContactUsScreen({ navigation }) {
   return (
-    
     <ScrollView contentContainerStyle={styles.container}>
+      
+      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
+        <Text style={styles.backArrow}>←</Text>
+        <Text style={styles.backText}>Back</Text>
+      </TouchableOpacity>
+      
       <Image source={require('../assets/contact.jpeg')} style={styles.icon} />
       <Text style={styles.heading}>Contact Us</Text>
 
@@ -39,7 +44,21 @@ const styles = StyleSheet.create({
     padding: 20,
     alignItems: 'center',
   },
-
+  backButton: {
+    flexDirection: 'row',
+    alignSelf: 'flex-start',
+    marginBottom: 10,
+    alignItems: 'center',
+  },
+  backArrow: {
+    fontSize: 22,
+    color: '#003f7f',
+    marginRight: 6,
+  },
+  backText: {
+    fontSize: 18,
+    color: '#003f7f',
+  },
   icon: {
     width: 100,
     height: 100,
